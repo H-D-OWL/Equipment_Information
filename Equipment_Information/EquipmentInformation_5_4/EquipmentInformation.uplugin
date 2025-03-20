@@ -1,0 +1,26 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Equipment Information",
+	"Description": "Adds nodes that provide information about CPU, GPU, RAM and Displays.",
+	"Category": "Equipment_Information",
+	"CreatedBy": "H.D.OWL ",
+	"CreatedByURL": "https://github.com/H-D-OWL",
+	"DocsURL": "https://github.com/H-D-OWL/Equipment_Information",
+	"MarketplaceURL": "",
+	"SupportURL": "https://github.com/H-D-OWL/Equipment_Information",
+	"EngineVersion": "5.4.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "EquipmentInformation",
+			"Type": "Runtime",
+			"LoadingPhase": "PreLoadingScreen",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	]
+}
