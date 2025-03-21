@@ -36,7 +36,19 @@ Target platform : Windows
 ![Снимок 3](https://github.com/user-attachments/assets/42263f2b-ab12-45d0-8cc3-6503df27bbda)
 
 * Get Displays Info
-  - Displays: Returns an array of the "Display Info" structure. The "Display Info" structure contains: String "Name", String "ID", int "Native Width", int "Native Height", int Point "Max Resolution" Structure, bool "Is Primary", int "DPI".  **For example: Name - AUS2707, ID - MONITOR\AUS2707\{4d36e96e-e325-11ce-bfc1-08002be10318}\0001, Native Width - 2560, Native Height - 1440, Max Resolution - , Is Primary - true, DPI - 107**
+  - Displays: Returns an array of the "Display Info" structure. The "Display Info" structure contains: String "Name", String "ID", int "Native Width", int "Native Height", int Point "Max Resolution" Structure, bool "Is Primary", int "DPI".  **For example: Name - AUS2707, ID - MONITOR\AUS2707\{4d36e96e-e325-11ce-bfc1-08002be10318}\0001, Native Width - 2560, Native Height - 1440, Max Resolution - X=1440 Y=1080 , Is Primary - true, DPI - 107**
   - Max FPS Primary Monitor: Returns Max FPS Primary Monitor.  **For example: 60**
 
 ![Снимок 4](https://github.com/user-attachments/assets/2461c07d-d196-49df-ae04-be464468a4dd)
+
+## Warning
+Max Resolution from Get Displays Info returns correct values ​​only in Standalone Game or Cooked Game.
+
+Test done :
+
+CPU :  Intel(R) Core(TM) i7-9700K
+
+GPU: NVIDIA GeForce RTX 2080
+
+
+
